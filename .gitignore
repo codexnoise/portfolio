@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+
+# Next.js
+/.next/
+/out/
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+pnpify/
+.yarn/
+
+# TypeScript configuration
+tsconfig*.json
+
+# ESLint
+.eslintcache
+
+# Testing
+coverage/
+
+# Build directories
+/build/
+/public/
+
+*.notes
+
