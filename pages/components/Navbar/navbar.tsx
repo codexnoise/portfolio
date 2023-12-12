@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul>
         <li>
           <Link href="/" legacyBehavior>
-            <a>Home XJASCJASC</a>
+            <a>Home</a>
           </Link>
         </li>
         <li>
