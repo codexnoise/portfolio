@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+footer {
+  width: 100%;
+  color: white;
+  background-color: #333333 ;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
