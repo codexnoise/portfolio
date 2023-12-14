@@ -15,6 +15,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link href="/projects" legacyBehavior>
+            <a>Projects</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/contact" legacyBehavior>
             <a>Contact</a>
           </Link>
