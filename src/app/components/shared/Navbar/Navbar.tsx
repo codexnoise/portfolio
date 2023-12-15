@@ -3,28 +3,10 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <nav>
-      <ul>
-        <li>
-          <Link href="/" legacyBehavior>
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about" legacyBehavior>
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/projects" legacyBehavior>
-            <a>Projects</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact" legacyBehavior>
-            <a>Contact</a>
-          </Link>
-        </li>
-      </ul>
+      <button>Home</button>
+      <button>About</button>
+      <button>Projects</button>
+      <button>Contact</button>
     </nav>
   )
 }
