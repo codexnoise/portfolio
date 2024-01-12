@@ -3,11 +3,10 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <nav>
-      <Image src="/icons/home.svg" alt="profile" width={100} height={100} />
-      <button>Home</button>
-      <button>About</button>
-      <button>Projects</button>
-      <button>Contact</button>
+      <Image src="/icons/home.svg" alt="profile" width={50} height={50} />
+      <Image src="/icons/projects.svg" alt="profile" width={50} height={50} />
+      <Image src="/icons/about.svg" alt="profile" width={50} height={50} />
+      <Image src="/icons/home.svg" alt="profile" width={50} height={50} />
     </nav>
   )
 }
