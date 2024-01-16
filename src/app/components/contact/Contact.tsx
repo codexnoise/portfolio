@@ -1,7 +1,5 @@
 const Contact = () => {
-  console.log('sdbsdbsdb')
-
-
+  //console.log('sdbsdbsdb')
   return <div>Conctact</div>
 }
 
