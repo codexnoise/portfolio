@@ -9,6 +9,9 @@ jobs:
   create_pull_request:
     runs-on: ubuntu-latest
     steps:
+    - name: Debug GitHub Token
+      run: echo ${{ secrets.GITHUB_TOKEN }}
+
     - name: Checkout Repository
       uses: actions/checkout@v2
 
