@@ -23,15 +23,11 @@ const About = () => {
         </div>
         <div className="Description__text">
           <p>
-            Soy un desarrollador de software FullStack con experiencia en
+            Ingeniero electrónico de profesión, desarrollador de software por
+            vocación, Soy FullStack con mas de 2 años de experiencia en
             desarrollo web, aplicaciones móviles y servicios de internet. Me
             encanta trabajar en proyectos colaborativos y me gusta aprender
-            nuevas tecnologías. Apasionado por la tecnología, autodidacta,
-            proactivo, orientado alconstante aprendizaje. Capaz de resolver
-            problemas y desarrollarsoluciones creativas e innovadoras mediante
-            pensamiento crítico,buenas prácticas,código limpio y eficiente. Me
-            destaco por mi trabajoindividual, tengo una comunicación asertiva
-            cuando se trata de lainteracción con el equipo de trabajo.
+            nuevas tecnologías.
           </p>
         </div>
       </div>
