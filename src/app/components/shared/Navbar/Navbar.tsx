@@ -12,7 +12,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="#about-me">
+          <Link href="#about">
             <Image
               src="/icons/about.svg"
               alt="sobre mí"
@@ -32,7 +32,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/#contact-me">
+          <Link href="/#contact">
             <Image
               src="/icons/contact.svg"
               alt="contacto"

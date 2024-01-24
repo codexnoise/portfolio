@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "name": "Dev Finder",
+      "description": "A simple git hub user searcher built with React",
+      "image": "devFinder.png",
+      "url": "https://codexnoise.github.io/github_user_searcher/",
+      "github": "https://github.com/codexnoise/github_user_searcher",
+      "techStack": ["React", "Redux", "Sass"]
+    },
+    {
+      "name": "Pokedux",
+      "description": "A simple pokedex built with React",
+      "image": "pokedex.png",
+      "url": "https://codexnoise.github.io/pokedex/",
+      "github": "https://github.com/codexnoise/pokedex",
+      "techStack": ["React", "Redux", "Sass"]
+    },
+    {
+      "name": "Todo Machine",
+      "description": "A simple todo machine built with React",
+      "image": "todoMachine.png",
+      "url": "https://codexnoise.github.io/todo_machine/",
+      "github": "https://github.com/codexnoise/todo_machine",
+      "techStack": ["React", "Redux", "Sass"]
+    }
+
+  ]
+}
