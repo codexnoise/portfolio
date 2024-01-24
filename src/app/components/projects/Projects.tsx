@@ -1,9 +1,10 @@
 import { FunctionComponent } from 'react'
 import projectsList from './projects.json'
 import { Project } from './types'
+import styles from './Project.module.css'
 
 const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
-  <div className="card" key={project.name}>
+  <div className={styles.projects__project} key={project.name}>
     <figure>
       <img src={project.image} alt={project.name} />
       <figcaption>
@@ -19,8 +20,10 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
 
 const Projects = () => (
   <section id="projects">
-    <h2>Proyectos</h2>
-    <div className="project__container">
+    <section className="About">
+      <h2>PROYECTOS</h2>
+    </section>
+    <div className={styles.projects__container}>
       {projectsList.projects.map((project: Project) => (
         <ProjectCard key={project.name} project={project} />
       ))}
