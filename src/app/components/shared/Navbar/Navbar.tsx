@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul className={styles.Navbar__list}>
         <li>
           <Link href="#home">
-            <Image src="/icons/home.svg" alt="inicio" width={37} height={37} />
+            <Image src="/icons/home.svg" alt="inicio" width={45} height={45} />
           </Link>
         </li>
         <li>
@@ -16,8 +16,8 @@ const Navbar = () => {
             <Image
               src="/icons/about.svg"
               alt="sobre mí"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
             />
           </Link>
         </li>
@@ -26,8 +26,8 @@ const Navbar = () => {
             <Image
               src="/icons/technologies.svg"
               alt="tecnologías y herramientas"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
             />
           </Link>
         </li>
@@ -36,8 +36,8 @@ const Navbar = () => {
             <Image
               src="/icons/projects.svg"
               alt="proyectos"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
             />
           </Link>
         </li>
@@ -46,8 +46,8 @@ const Navbar = () => {
             <Image
               src="/icons/contact.svg"
               alt="contacto"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
             />
           </Link>
         </li>
