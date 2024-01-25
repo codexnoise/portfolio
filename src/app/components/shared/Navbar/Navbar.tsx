@@ -4,20 +4,30 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={styles.Navbar}>
       <ul className={styles.Navbar__list}>
         <li>
           <Link href="#home">
-            <Image src="/icons/home.svg" alt="inicio" width={37} height={37} />
+            <Image src="/icons/home.svg" alt="inicio" width={45} height={45} />
           </Link>
         </li>
         <li>
-          <Link href="#about-me">
+          <Link href="#about">
             <Image
               src="/icons/about.svg"
               alt="sobre mí"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
+            />
+          </Link>
+        </li>
+        <li>
+          <Link href="#technologies">
+            <Image
+              src="/icons/technologies.svg"
+              alt="tecnologías y herramientas"
+              width={45}
+              height={45}
             />
           </Link>
         </li>
@@ -26,18 +36,18 @@ const Navbar = () => {
             <Image
               src="/icons/projects.svg"
               alt="proyectos"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
             />
           </Link>
         </li>
         <li>
-          <Link href="/#contact-me">
+          <Link href="/#contact">
             <Image
               src="/icons/contact.svg"
               alt="contacto"
-              width={37}
-              height={37}
+              width={45}
+              height={45}
             />
           </Link>
         </li>
