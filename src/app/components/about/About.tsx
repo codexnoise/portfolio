@@ -27,7 +27,9 @@ const About = () => {
             vocación, Soy FullStack con mas de 2 años de experiencia en
             desarrollo web, aplicaciones móviles y servicios de internet. Me
             encanta trabajar en proyectos colaborativos y me gusta aprender
-            nuevas tecnologías.
+            nuevas tecnologías. Me gusta trabajar en equipo y me encanta
+            trabajar en proyectos colaborativos. Me gusta aprender nuevas
+            tecnologias.
           </p>
         </div>
       </div>

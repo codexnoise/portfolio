@@ -22,6 +22,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link href="#technologies">
+            <Image
+              src="/icons/technologies.svg"
+              alt="tecnologías y herramientas"
+              width={37}
+              height={37}
+            />
+          </Link>
+        </li>
+        <li>
           <Link href="#projects">
             <Image
               src="/icons/projects.svg"
