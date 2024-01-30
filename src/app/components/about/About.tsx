@@ -7,32 +7,34 @@ const PLACEHOLDER_BLUR_IMAGE =
 const About = () => {
   return (
     <>
-      <section className="About">
+      <section className="About" id="home">
         <h1>Diego F. Velesaca O.</h1>
         <h2>Desarrollador de Software FullStack</h2>
       </section>
-      <div className="Description">
-        <div className="Description__imageContainer">
-          <Image
-            src="/images/home_image.jpg"
-            alt="profile"
-            fill
-            placeholder="blur"
-            blurDataURL={PLACEHOLDER_BLUR_IMAGE}
-          />
+      <section className="About" id="about">
+        <div className="Description">
+          <div className="Description__imageContainer">
+            <Image
+              src="/images/home_image.jpg"
+              alt="profile"
+              fill
+              placeholder="blur"
+              blurDataURL={PLACEHOLDER_BLUR_IMAGE}
+            />
+          </div>
+          <div className="Description__text">
+            <p>
+              Ingeniero electrónico de profesión, desarrollador de software por
+              vocación, Soy FullStack con mas de 2 años de experiencia en
+              desarrollo web, aplicaciones móviles y servicios de internet. Me
+              encanta trabajar en proyectos colaborativos y me gusta aprender
+              nuevas tecnologías. Me gusta trabajar en equipo y me encanta
+              trabajar en proyectos colaborativos. Me gusta aprender nuevas
+              tecnologias.
+            </p>
+          </div>
         </div>
-        <div className="Description__text">
-          <p>
-            Ingeniero electrónico de profesión, desarrollador de software por
-            vocación, Soy FullStack con mas de 2 años de experiencia en
-            desarrollo web, aplicaciones móviles y servicios de internet. Me
-            encanta trabajar en proyectos colaborativos y me gusta aprender
-            nuevas tecnologías. Me gusta trabajar en equipo y me encanta
-            trabajar en proyectos colaborativos. Me gusta aprender nuevas
-            tecnologias.
-          </p>
-        </div>
-      </div>
+      </section>
     </>
   )
 }
