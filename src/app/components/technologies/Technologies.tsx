@@ -36,6 +36,12 @@ const Technologies = () => {
           height={45}
         />
         <Image
+          src="/brands/fastapi-color.svg"
+          alt="inicio"
+          width={45}
+          height={45}
+        />
+        <Image
           src="/brands/mysql-color.svg"
           alt="inicio"
           width={60}
