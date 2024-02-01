@@ -30,6 +30,24 @@ const Technologies = () => {
           height={45}
         />
         <Image
+          src="/brands/html5-color.svg"
+          alt="inicio"
+          width={45}
+          height={45}
+        />
+        <Image
+          src="/brands/css3-color.svg"
+          alt="inicio"
+          width={45}
+          height={45}
+        />
+        <Image
+          src="/brands/nodedotjs-color.svg"
+          alt="inicio"
+          width={45}
+          height={45}
+        />
+        <Image
           src="/brands/python-color.svg"
           alt="inicio"
           width={45}
