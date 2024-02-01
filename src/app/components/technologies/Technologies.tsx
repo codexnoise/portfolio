@@ -66,7 +66,25 @@ const Technologies = () => {
           height={60}
         />
         <Image
+          src="/brands/postgresql-color.svg"
+          alt="inicio"
+          width={60}
+          height={60}
+        />
+        <Image
           src="/brands/mongodb-color.svg"
+          alt="inicio"
+          width={45}
+          height={45}
+        />
+        <Image
+          src="/brands/git-color.svg"
+          alt="inicio"
+          width={45}
+          height={45}
+        />
+        <Image
+          src="/brands/github-color.svg"
           alt="inicio"
           width={45}
           height={45}
