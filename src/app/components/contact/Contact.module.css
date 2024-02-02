@@ -1,0 +1,22 @@
+.Contact__container {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  column-gap: 2.5rem;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.Contact__text {
+  font-size: 1.25rem;
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+.Contact__link {
+  text-decoration: none;
+  color: inherit;
+}
+
