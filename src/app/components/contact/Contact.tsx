@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Contact.module.css'
 
@@ -15,26 +16,46 @@ const Contact = () => {
           </a>
         </p>
         <div className={styles.Contact__container}>
-          <Image
-            src="/icons/linkedin.svg"
-            alt="inicio"
-            width={45}
-            height={45}
-          />
-          <Image src="/icons/github.svg" alt="inicio" width={45} height={45} />
-          <Image src="/icons/twitter.svg" alt="inicio" width={45} height={45} />
-          <Image
-            src="/icons/whatsapp.svg"
-            alt="inicio"
-            width={45}
-            height={45}
-          />
-          <Image
-            src="/icons/instagram.svg"
-            alt="inicio"
-            width={50}
-            height={50}
-          />
+          <Link href="https://www.linkedin.com/in/diegovo/" target="_blank">
+            <Image
+              src="/icons/linkedin.svg"
+              alt="linkedin_icono"
+              width={45}
+              height={45}
+            />
+          </Link>
+          <Link href="https://github.com/codexnoise" target="_blank">
+            <Image
+              src="/icons/github.svg"
+              alt="github_icono"
+              width={45}
+              height={45}
+            />
+          </Link>
+          <Link href="https://twitter.com/codexnoise" target="_blank">
+            <Image
+              src="/icons/twitter.svg"
+              alt="x_icono"
+              width={45}
+              height={45}
+            />
+          </Link>
+          <Link href="https://wa.me/593983853525" target="_blank">
+            <Image
+              src="/icons/whatsapp.svg"
+              alt="whatsapp_icono"
+              width={45}
+              height={45}
+            />
+          </Link>
+          <Link href="https://instagram.com/codexnoise" target="_blank">
+            <Image
+              src="/icons/instagram.svg"
+              alt="instagram_icono"
+              width={50}
+              height={50}
+            />
+          </Link>
         </div>
       </section>
     </section>
