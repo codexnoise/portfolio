@@ -2,11 +2,17 @@ import { FunctionComponent } from 'react'
 import projectsList from './projects.json'
 import { Project } from './types'
 import styles from './Project.module.css'
+import Image from 'next/image'
 
 const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
   <div className={styles.projects__project} key={project.name}>
     <figure>
-      <img src={project.image} alt={project.name} />
+      <Image
+        src={`/images/${project.image}`}
+        alt={project.image}
+        width={50}
+        height={50}
+      />
       <figcaption>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
