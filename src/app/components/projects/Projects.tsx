@@ -10,8 +10,8 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
       <Image
         src={`/images/${project.image}`}
         alt={project.image}
-        width={50}
-        height={50}
+        width={360}
+        height={626}
       />
       <figcaption>
         <h3>{project.name}</h3>
