@@ -2,31 +2,31 @@
   "projects": [
     {
       "name": "Dev Finder",
-      "description": "A simple git hub user searcher built with React",
-      "image": "devFinder.png",
+      "description": "¿Te gustaría descubrir más sobre tus compañeros desarrolladores? Dev Finder es la herramienta perfecta para explorar perfiles de GitHub y obtener información valiosa sobre sus habilidades.",
+      "image": "devFinder.jpeg",
       "url": "https://codexnoise.github.io/github_user_searcher/",
       "github": "https://github.com/codexnoise/github_user_searcher",
       "techStack": ["React", "Redux", "Sass"]
     },
     {
       "name": "Pokedux",
-      "description": "A simple pokedex built with React",
-      "image": "pokedex.png",
+      "description": "¡Prepárate para embarcarte en una emocionante aventura Pokémon con nuestra aplicación POKEDEX! Descubre a los primeros 151 Pokémon, filtra tu búsqueda por nombre y sumérgete en el fascinante mundo de estas adorables criaturas.",
+      "image": "pokedex.jpeg",
       "url": "https://codexnoise.github.io/pokedex/",
       "github": "https://github.com/codexnoise/pokedex",
       "techStack": ["React", "Redux", "Sass"]
     },
     {
       "name": "Todo Machine",
-      "description": "A simple todo machine built with React",
-      "image": "todoMachine.png",
+      "description": "¿Quieres organizar tus tareas de manera eficiente? ¡Todo Machine está aquí para ayudarte! Esta aplicación de lista de tareas te permite agregar, eliminar y gestionar tus tareas diarias de manera sencilla y rápida.",
+      "image": "todoMachine.jpeg",
       "url": "https://codexnoise.github.io/todo_machine/",
       "github": "https://github.com/codexnoise/todo_machine",
       "techStack": ["React", "Redux", "Sass"]
     },
     {
-      "name": "Dev Finder",
-      "description": "A simple git hub user searcher built with React",
+      "name": "Portfolio",
+      "description": "¡Bienvenido a mi rincón digital! Mi portafolio personal es más que una simple página web; es mi espacio creativo donde comparto mi trayectoria, habilidades y proyectos emocionantes. Echa un vistazo a las características que hacen que mi portafolio sea único.",
       "image": "devFinder.png",
       "url": "https://codexnoise.github.io/github_user_searcher/",
       "github": "https://github.com/codexnoise/github_user_searcher",

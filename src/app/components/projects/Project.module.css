@@ -4,11 +4,20 @@
   column-gap: 2.25rem;
   max-width: 1000px;
   margin: 6rem auto;
+  color:white;
+  font-size: 1.125rem;
 }
 
 .projects__project {
   border-radius: 1.375rem;
   border: 2px solid green;
   margin: 0.5rem 0;
+}
+
+.projects__project img {
+  place-items: center !important;
+  height: 35vh;
+  width: 100%;
+  object-fit: cover;
 }
 
