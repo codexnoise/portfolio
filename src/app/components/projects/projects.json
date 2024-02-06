@@ -6,15 +6,15 @@
       "image": "devFinder.jpeg",
       "url": "https://codexnoise.github.io/github_user_searcher/",
       "github": "https://github.com/codexnoise/github_user_searcher",
-      "techStack": ["React", "Redux", "Sass"]
+      "techStack": ["react-color", "javascript-color", "html5-color", "css3-color", "mui"]
     },
     {
       "name": "Pokedux",
-      "description": "¡Prepárate para embarcarte en una emocionante aventura Pokémon con nuestra aplicación POKEDEX! Descubre a los primeros 151 Pokémon, filtra tu búsqueda por nombre y sumérgete en el fascinante mundo de estas adorables criaturas.",
+      "description": "¡Prepárate para embarcarte en una emocionante aventura Pokémon con nuestra aplicación Pokedux! Descubre a los primeros 151 Pokémon, filtra tu búsqueda por nombre y sumérgete en el fascinante mundo de estas adorables criaturas.",
       "image": "pokedex.jpeg",
       "url": "https://codexnoise.github.io/pokedex/",
       "github": "https://github.com/codexnoise/pokedex",
-      "techStack": ["React", "Redux", "Sass"]
+      "techStack": ["react-color", "Redux", "Sass"]
     },
     {
       "name": "Todo Machine",
@@ -22,15 +22,15 @@
       "image": "todoMachine.jpeg",
       "url": "https://codexnoise.github.io/todo_machine/",
       "github": "https://github.com/codexnoise/todo_machine",
-      "techStack": ["React", "Redux", "Sass"]
+      "techStack": ["react-color", "Redux", "Sass"]
     },
     {
       "name": "Portfolio",
       "description": "¡Bienvenido a mi rincón digital! Mi portafolio personal es más que una simple página web; es mi espacio creativo donde comparto mi trayectoria, habilidades y proyectos emocionantes. Echa un vistazo a las características que hacen que mi portafolio sea único.",
-      "image": "devFinder.png",
+      "image": "portfolio.png",
       "url": "https://codexnoise.github.io/github_user_searcher/",
       "github": "https://github.com/codexnoise/github_user_searcher",
-      "techStack": ["React", "Redux", "Sass"]
+      "techStack": ["react-color", "Redux", "Sass"]
     }
   ]
 }

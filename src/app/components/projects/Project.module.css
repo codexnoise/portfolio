@@ -14,10 +14,42 @@
   margin: 0.5rem 0;
 }
 
-.projects__project img {
-  place-items: center !important;
+.projects__project > figure > img {
+  place-items: center;
   height: 35vh;
   width: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
+.project__links{
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.project__links a{
+  color:white;
+  text-decoration: none;
+  padding: 4.5px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.project__links__github__link {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos dentro de este enlace */
+  text-decoration: none;
+  color: #000; /* Color del texto */
+  margin-right: 10px; /* Ajusta el margen a tu preferencia */
+}
+
+.project__links__github__link img {
+  margin-right: 5px; /* Ajusta el margen entre la imagen y el texto */
+}

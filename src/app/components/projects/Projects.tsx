@@ -16,9 +16,46 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
       <figcaption>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
-        <a href={project.url} target="_blank" rel="noopener noreferrer">
-          Ver proyecto
-        </a>
+        <div className={styles.project__technologies}>
+          <h3>Tecnologias usadas:</h3>
+          {project.techStack.map((tech: string) => (
+            <Image
+              key={tech}
+              src={`/brands/${tech}.svg`}
+              alt={`${tech}_logo`}
+              width={45}
+              height={45}
+            />
+          ))}
+        </div>
+        <div className={styles.project__links}>
+          <a
+            href={project.github}
+            target="_blank"
+            className={styles.project__links__github__link}
+          >
+            <Image
+              src="/icons/github.svg"
+              alt="github_icono"
+              width={25}
+              height={25}
+            />
+            Github{' '}
+          </a>
+          <a
+            href={project.url}
+            target="_blank"
+            className={styles.project__links__github__link}
+          >
+            <Image
+              src="/icons/url.svg"
+              alt="url_icono"
+              width={25}
+              height={25}
+            />
+            Preview{' '}
+          </a>
+        </div>
       </figcaption>
     </figure>
   </div>
@@ -38,3 +75,7 @@ const Projects = () => (
 )
 
 export default Projects
+
+
+
+

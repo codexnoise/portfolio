@@ -8,8 +8,8 @@ const About = () => {
   return (
     <>
       <section className="About" id="home">
-        <h1>Diego F. Velesaca O.</h1>
-        <h2>Desarrollador de Software FullStack</h2>
+        <h1>{'<DIEGO F. VELESACA O./>'}</h1>
+        <h2>DESARROLLADOR DE SOFTWARE FULLSTACK</h2>
       </section>
       <section className="About" id="about">
         <div className="Description">
