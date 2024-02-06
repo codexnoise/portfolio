@@ -16,6 +16,18 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
       <figcaption>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
+        <div className={styles.project__technologies}>
+          <h3>Tecnologias usadas:</h3>
+          {project.techStack.map((tech: string) => (
+            <Image
+              key={tech}
+              src={`/brands/${tech}.svg`}
+              alt={`${tech}_logo`}
+              width={45}
+              height={45}
+            />
+          ))}
+        </div>
         <div className={styles.project__links}>
           <a
             href={project.github}
