@@ -44,8 +44,8 @@ const Technologies = () => {
             height={45}
           />
           <Image
-            src="/brands/next.svg"
-            alt="next_logo"
+            src="/brands/node.svg"
+            alt="node_logo"
             width={45}
             height={45}
           />
