@@ -61,7 +61,7 @@
 }
 
 .project__img__container:hover img {
-  transform: translateY(-10px); /* Mover la imagen hacia arriba cuando se sitúa el cursor sobre ella */
+  transform: translateY(-10px);
 }
 
 .project__img__container::after {
