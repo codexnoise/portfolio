@@ -6,7 +6,10 @@
       "image": "devFinder.jpeg",
       "url": "https://codexnoise.github.io/github_user_searcher/",
       "github": "https://github.com/codexnoise/github_user_searcher",
-      "techStack": ["react", "javascript", "html5", "css3", "mui"]
+      "techStack": [
+        {"tech": "react", "name": "React"},
+        {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}, "mui"
+      ]
     },
     {
       "name": "Pokedux",
@@ -14,7 +17,9 @@
       "image": "pokedex.jpeg",
       "url": "https://codexnoise.github.io/pokedex/",
       "github": "https://github.com/codexnoise/pokedex",
-      "techStack": ["react", "redux", "javascript", "html5", "css3", "antdesign"]
+      "techStack": [
+        {"tech": "react", "name": "React"}, {"tech": "redux", "name": "Reduc"}, {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}, {"tech": "antdesign", "name": "Ant Design"}
+      ]
     },
     {
       "name": "Todo Machine",
@@ -22,7 +27,9 @@
       "image": "todoMachine.jpeg",
       "url": "https://codexnoise.github.io/todo_machine/",
       "github": "https://github.com/codexnoise/todo_machine",
-      "techStack": ["react", "javascript", "html5", "css3"]
+      "techStack": [
+        {"tech": "react", "name": "React"}, {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}
+      ]
     },
     {
       "name": "Portfolio",
@@ -30,7 +37,9 @@
       "image": "portfolio.png",
       "url": "https://codexnoise.github.io/github_user_searcher/",
       "github": "https://github.com/codexnoise/github_user_searcher",
-      "techStack": ["next", "typescript", "html5", "css3"]
+      "techStack": [
+        {"tech": "next", "name": "Next"}, {"tech": "typescript", "name": "Typescript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}
+      ]
     }
   ]
 }
