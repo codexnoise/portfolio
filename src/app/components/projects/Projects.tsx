@@ -19,13 +19,19 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
         <div className={styles.project__technologies}>
           <h3>Tecnologias usadas:</h3>
           {project.techStack.map((tech: string) => (
-            <Image
+            <div
               key={tech}
-              src={`/brands/${tech}.svg`}
-              alt={`${tech}_logo`}
-              width={45}
-              height={45}
-            />
+              className={styles.project__img__container}
+              data-description="React"
+            >
+              <Image
+                key={tech}
+                src={`/brands/${tech}.svg`}
+                alt={`${tech}_logo`}
+                width={40}
+                height={40}
+              />
+            </div>
           ))}
         </div>
         <div className={styles.project__links}>
