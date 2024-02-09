@@ -15,7 +15,7 @@ const About = () => {
         <div className="Description">
           <div className="Description__imageContainer">
             <Image
-              src="/images/home_image.jpg"
+              src="/images/home_image.png"
               alt="profile"
               fill
               placeholder="blur"
@@ -24,13 +24,12 @@ const About = () => {
           </div>
           <div className="Description__text">
             <p>
-              Ingeniero electrónico de profesión, desarrollador de software por
-              vocación, Soy FullStack con mas de 2 años de experiencia en
-              desarrollo web, aplicaciones móviles y servicios de internet. Me
-              encanta trabajar en proyectos colaborativos y me gusta aprender
-              nuevas tecnologías. Me gusta trabajar en equipo y me encanta
-              trabajar en proyectos colaborativos. Me gusta aprender nuevas
-              tecnologias.
+              ¡Hola! Soy Ingeniero electrónico de profesión y desarrollador de
+              software por vocación. Me apasiona el aprendizaje continuo y la
+              resolución de problemas a través de la creatividad y el
+              pensamiento crítico. Con experiencia en el desarrollo de software,
+              estoy emocionado por seguir creciendo y contribuir al desarrollo
+              de soluciones tecnológicas innovadoras.
             </p>
           </div>
         </div>
