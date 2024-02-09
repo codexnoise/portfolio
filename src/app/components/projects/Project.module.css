@@ -78,3 +78,11 @@
   opacity: 1; /* Mostrar el texto cuando se sitúa el cursor sobre la imagen */
 }
 
+.project__technologies {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 30px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
