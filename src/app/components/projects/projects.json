@@ -8,7 +8,7 @@
       "github": "https://github.com/codexnoise/github_user_searcher",
       "techStack": [
         {"tech": "react", "name": "React"},
-        {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}, "mui"
+        {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}, {"tech": "mui", "name": "Material UI"}
       ]
     },
     {
@@ -18,7 +18,7 @@
       "url": "https://codexnoise.github.io/pokedex/",
       "github": "https://github.com/codexnoise/pokedex",
       "techStack": [
-        {"tech": "react", "name": "React"}, {"tech": "redux", "name": "Reduc"}, {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}, {"tech": "antdesign", "name": "Ant Design"}
+        {"tech": "react", "name": "React"}, {"tech": "redux", "name": "Redux"}, {"tech": "javascript", "name": "Javascript"}, {"tech": "html5", "name": "Html"}, {"tech": "css3", "name": "Css"}, {"tech": "antdesign", "name": "Ant Design"}
       ]
     },
     {

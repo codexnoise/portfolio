@@ -4,7 +4,7 @@ export interface Project {
   image: string
   url: string
   github: string
-  techStack: string[]
+  techStack: { tech: string; name: string }[]
 }
 
 export interface ProjectObj {
