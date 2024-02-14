@@ -20,6 +20,7 @@
 .Navbar__list > li > a
 {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   font-weight: 400;
+  color: white;
 }
