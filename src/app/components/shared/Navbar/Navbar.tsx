@@ -9,6 +9,7 @@ const Navbar = () => {
         <li>
           <Link href="#home">
             <Image src="/icons/home.svg" alt="inicio" width={45} height={45} />
+            <span>Inicio</span>
           </Link>
         </li>
         <li>
@@ -19,6 +20,7 @@ const Navbar = () => {
               width={45}
               height={45}
             />
+            <span>Sobre mí</span>
           </Link>
         </li>
         <li>
@@ -29,6 +31,7 @@ const Navbar = () => {
               width={45}
               height={45}
             />
+            <span>Tecnologías</span>
           </Link>
         </li>
         <li>
@@ -39,6 +42,7 @@ const Navbar = () => {
               width={45}
               height={45}
             />
+            <span>Proyectos</span>
           </Link>
         </li>
         <li>
@@ -49,6 +53,7 @@ const Navbar = () => {
               width={45}
               height={45}
             />
+            <span>Contacto</span>
           </Link>
         </li>
       </ul>
