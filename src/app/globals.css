@@ -1,6 +1,12 @@
 body{
-  background-color: #2d2d2d;
+  background-color: red;
   font: -apple-system,BlinkMacSystemFont;
+}
+
+.About {
+  position: static;
+  margin-top: 400px;
+  background-color: yellow;
 }
 
 .About h1 {
