@@ -4,7 +4,7 @@ import styles from './Technologies.module.css'
 const Technologies = () => {
   return (
     <section id="technologies">
-      <section className="About">
+      <section className={styles.technologies}>
         <h2>TECNOLOGIAS Y HERRAMIENTAS</h2>
         <div className={styles.technologies__container}>
           <Image

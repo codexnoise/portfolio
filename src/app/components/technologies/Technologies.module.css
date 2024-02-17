@@ -1,8 +1,20 @@
+.technologies {
+  display: flex;
+  flex-direction: column;
+}
+
+.technologies > h2 {
+  font-size: 2rem;
+  margin: 15rem 0 1rem 0;
+  text-align: center;
+  color: white;
+}
+
 .technologies__container{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 6rem auto;
+  margin: 6rem  auto 20rem auto;
   max-width: 850px;
   gap: 15px;
 }

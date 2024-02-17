@@ -1,0 +1,54 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home h1 {
+  background-image: linear-gradient(270deg, green, green);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  margin: 20rem 0;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.Home > h2 {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: white;
+}
+
+.About {
+  display: flex;
+}
+
+.Description{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.25rem;
+  max-width: 1000px;
+  margin: 15rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 1.375rem;
+}
+
+.Description__imageContainer > img {
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 0 4rem rgba(255, 255, 255, 0.2);
+}
+
+.Description__imageContainer{
+  position: relative;
+  width: 512px;
+  height: 320px;
+}
+
+.Description__text > p {
+  font-size: 1.25rem;
+  line-height: 1.75;
+  color: white;
+}
