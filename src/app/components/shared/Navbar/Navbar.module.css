@@ -2,10 +2,11 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(45, 45, 45, 0.8);
+  background-color: #2d2d2d;
   z-index: 10;
   border-radius: 1.375rem;
   border: 3px solid green;
+  height: 110px;
 }
 
 .Navbar__list li {
@@ -49,4 +50,6 @@
   margin-top: 5px;
 }
 
-
+nav.fixed ~ * {
+  filter: blur(2px) !important;
+}
