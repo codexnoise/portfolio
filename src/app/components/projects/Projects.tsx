@@ -68,10 +68,8 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
 )
 
 const Projects = () => (
-  <section id="projects">
-    <section className="About">
-      <h2>PROYECTOS</h2>
-    </section>
+  <section className={styles.projects} id="projects">
+    <h2>PROYECTOS</h2>
     <div className={styles.projects__container}>
       {projectsList.projects.map((project: Project) => (
         <ProjectCard key={project.name} project={project} />

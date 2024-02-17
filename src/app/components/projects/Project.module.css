@@ -1,9 +1,21 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects > h2 {
+  font-size: 2rem;
+  margin: 8rem 0 0.25rem 0;
+  text-align: center;
+  color: white;
+}
+
 .projects__container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2.25rem;
   max-width: 1000px;
-  margin: 6rem auto;
+  margin: 0 auto;
   color:white;
   font-size: 1.125rem;
 }
