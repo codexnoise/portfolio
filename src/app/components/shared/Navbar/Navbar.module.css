@@ -49,7 +49,3 @@
   display: block; /* Para que el texto esté en una línea separada */
   margin-top: 5px;
 }
-
-nav.fixed ~ * {
-  filter: blur(2px) !important;
-}
