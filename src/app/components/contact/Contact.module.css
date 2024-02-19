@@ -32,3 +32,9 @@
   color: inherit;
 }
 
+.Contact__container svg{
+  color: var(--letters-dark-color);
+  width: var(--width-icon-contact);
+  height: var(--height-icon-contact);
+}
+
