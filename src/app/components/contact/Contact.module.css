@@ -7,7 +7,7 @@
   font-size: 2rem;
   margin: 20rem 0 1rem 0;
   text-align: center;
-  color: white;
+  color: var(--letters-dark-color)
 }
 
 .Contact__container {
@@ -24,11 +24,17 @@
   font-size: 1.25rem;
   margin: 1rem 0 2rem 0;
   text-align: center;
-  color: white;
+  color: var(--letters-dark-color)
 }
 
 .Contact__link {
   text-decoration: none;
   color: inherit;
+}
+
+.Contact__container svg{
+  color: var(--letters-dark-color);
+  width: var(--width-icon-contact);
+  height: var(--height-icon-contact);
 }
 

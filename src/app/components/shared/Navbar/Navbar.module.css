@@ -17,7 +17,7 @@
 }
 
 .Navbar__list li span {
-  margin-top: 5px; /* Ajusta el espacio entre la imagen y el texto */
+  margin-top: 5px;
 }
 
 .Navbar__list {
@@ -35,7 +35,7 @@
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 400;
-  color: white;
+  color: var(--letters-dark-color)
 }
 
 .Navbar__list li {
@@ -50,6 +50,7 @@
   margin-top: 5px;
 }
 
-nav.fixed ~ * {
-  filter: blur(2px) !important;
+.Navbar__list svg{
+  width: var(--width-icon-navbar);
+  height: var(--height-icon-navbar);
 }
