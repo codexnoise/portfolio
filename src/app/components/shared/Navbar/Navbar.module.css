@@ -17,7 +17,7 @@
 }
 
 .Navbar__list li span {
-  margin-top: 5px; /* Ajusta el espacio entre la imagen y el texto */
+  margin-top: 5px;
 }
 
 .Navbar__list {
@@ -48,4 +48,9 @@
 .Navbar__list li span {
   display: block; /* Para que el texto esté en una línea separada */
   margin-top: 5px;
+}
+
+.Navbar__list svg{
+  width: var(--width-icon-navbar);
+  height: var(--height-icon-navbar);
 }

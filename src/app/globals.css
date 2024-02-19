@@ -1,6 +1,8 @@
 :root {
   --main-dark-color: #2d2d2d;
   --letters-dark-color: white;
+  --width-icon-navbar: 45px;
+  --height-icon-navbar: 45px;
 }
 
 body{
