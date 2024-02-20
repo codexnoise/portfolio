@@ -10,7 +10,6 @@
 body{
   margin: 0;
   background-color: var(--main-dark-color);
-  font: -apple-system,BlinkMacSystemFont;
 }
 
 footer {
@@ -19,4 +18,8 @@ footer {
   background-color: var(--main-dark-color);
   bottom: 0;
   text-align: center;
+}
+
+*{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
