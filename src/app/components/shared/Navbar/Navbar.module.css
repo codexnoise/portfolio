@@ -6,7 +6,6 @@
   z-index: 10;
   border-radius: 1.375rem;
   border: 3px solid green;
-  height: 110px;
 }
 
 .Navbar__list li {
@@ -16,17 +15,13 @@
   text-align: center;
 }
 
-.Navbar__list li span {
-  margin-top: 5px;
-}
-
 .Navbar__list {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
   column-gap: 2.5rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.35rem;
   justify-content: center;
 }
 
@@ -47,7 +42,6 @@
 
 .Navbar__list li span {
   display: block; /* Para que el texto esté en una línea separada */
-  margin-top: 5px;
 }
 
 .Navbar__list svg{
