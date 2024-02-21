@@ -8,13 +8,6 @@
   border: 3px solid green;
 }
 
-.Navbar__list li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 .Navbar__list {
   display: flex;
   flex-flow: row nowrap;
@@ -35,8 +28,6 @@
 
 .Navbar__list li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
@@ -47,4 +38,22 @@
 .Navbar__list svg{
   width: var(--width-icon-navbar);
   height: var(--height-icon-navbar);
+}
+
+@media (max-width: 640px) {
+  .Navbar {
+    width: auto;
+  }
+
+  .Navbar__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Navbar__list li {
+    padding: 10px 0;
+  }
+
 }
