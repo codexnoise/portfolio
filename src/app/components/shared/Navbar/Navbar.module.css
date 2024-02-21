@@ -42,17 +42,18 @@
 
 @media (max-width: 640px) {
   .Navbar {
-    position: fixed; /* Mantener la posición fija */
-    top: 0;
+    width: auto;
   }
 
   .Navbar__list{
     display: flex;
-    flex-flow: column nowrap;
-    list-style: none;
-    column-gap: 2.5rem;
-    margin: 0 auto;
-    padding: 0.35rem;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+  .Navbar__list li {
+    padding: 10px 0;
+  }
+
 }
