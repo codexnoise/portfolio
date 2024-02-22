@@ -42,7 +42,7 @@
 
 @media (max-width: 640px) {
   .Navbar {
-    width: auto;
+    display: none;
   }
 
   .Navbar__list{
@@ -55,5 +55,11 @@
   .Navbar__list li {
     padding: 10px 0;
   }
-
 }
+
+.Navbar__mobile_icon svg{
+  color: var(--letters-dark-color);
+  width: var(--width-icon-navbar);
+  height: var(--height-icon-navbar);
+}
+
