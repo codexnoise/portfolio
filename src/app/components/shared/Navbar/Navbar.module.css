@@ -2,11 +2,12 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #2d2d2d;
+  background-color: var(--main-dark-color);
   z-index: 10;
   border-radius: 1.375rem;
   border: 3px solid green;
 }
+
 
 .Navbar__list {
   display: flex;
@@ -31,8 +32,9 @@
   text-align: center;
 }
 
-.Navbar__list li span {
-  display: block; /* Para que el texto esté en una línea separada */
+.Navbar__list li span,
+.Navbar__mobile__icon span {
+  display: block;
 }
 
 .Navbar__list svg{
@@ -57,9 +59,20 @@
   }
 }
 
-.Navbar__mobile_icon svg{
+.Navbar__mobile__icon {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  background-color: var(--main-dark-color);
+  z-index: 10;
+  border-radius: 1rem;
+  border: 3px solid green;
+  color: var(--letters-dark-color);
+  padding: 8px;
+}
+
+.Navbar__mobile__icon svg{
   color: var(--letters-dark-color);
   width: var(--width-icon-navbar);
   height: var(--height-icon-navbar);
 }
-
