@@ -1,19 +1,30 @@
+'use client'
+
 import Link from 'next/link'
 import styles from './Navbar.module.css'
+import { useCallback } from 'react'
 
 const Navbar = () => {
+  const onShowMenu = useCallback(() => {
+    alert('jnbj')
+  }, [])
+
   return (
     <>
       <div className={styles.Navbar__mobile__icon}>
-        {/* <button> */}
-        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path
-            fill="currentColor"
-            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
-          />
-        </svg>
-        <span>Menú</span>
-        {/* </button> */}
+        <button onClick={onShowMenu}>
+          <svg
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="currentColor"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+            />
+          </svg>
+          <span>Menú</span>
+        </button>
       </div>
       <nav className={styles.Navbar}>
         <ul className={styles.Navbar__list}>

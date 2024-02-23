@@ -42,6 +42,12 @@
   height: var(--height-icon-navbar);
 }
 
+@media (min-width: 640px) {
+  .Navbar__mobile__icon{
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .Navbar {
     display: none;
@@ -75,4 +81,11 @@
   color: var(--letters-dark-color);
   width: var(--width-icon-navbar);
   height: var(--height-icon-navbar);
+}
+
+.Navbar__mobile__icon button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--letters-dark-color);
 }
