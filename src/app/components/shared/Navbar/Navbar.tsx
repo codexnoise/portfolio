@@ -13,8 +13,10 @@ const Navbar = () => {
     const navbar = document.querySelector(`.${styles.Navbar}`) as HTMLElement
 
     if (iconoMenu && navbar) {
-      iconoMenu.style.display = 'none' // Oculta el icono de menú
-      navbar.style.display = 'flex' // Muestra la barra de navegación
+      iconoMenu.style.display = 'none'
+      navbar.style.display = 'flex'
+      navbar.style.width = 'auto'
+      navbar.style.position = 'fixed'
     }
   }, [])
 
