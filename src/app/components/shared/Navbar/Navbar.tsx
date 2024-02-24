@@ -12,11 +12,7 @@ const Navbar = () => {
     ) as HTMLElement
     const navbar = document.querySelector(`.${styles.Navbar}`) as HTMLElement
 
-    console.info('iconoMenu', iconoMenu)
-    console.info('navbar', navbar)
-
     if (iconoMenu && navbar) {
-      alert('XXXX')
       iconoMenu.style.display = 'none' // Oculta el icono de menú
       navbar.style.display = 'flex' // Muestra la barra de navegación
     }
