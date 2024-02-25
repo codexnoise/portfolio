@@ -54,3 +54,21 @@
   line-height: 1.75;
   color: var(--letters-dark-color)
 }
+
+@media (max-width: 640px) {
+  .Home {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home h1 {
+    background-image: linear-gradient(270deg, green, green);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-weight: bold;
+  }
+}
