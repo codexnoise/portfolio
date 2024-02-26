@@ -51,7 +51,7 @@
 
 .Description__text > p {
   font-size: 1.25rem;
-  line-height: 1.75;
+  line-height: 1.5;
   color: var(--letters-dark-color)
 }
 
@@ -62,4 +62,20 @@
     margin-top: 15rem;
   }
 
+  .Description{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Description__imageContainer{
+    width: 100%;
+  }
+
+  .Description__text > p {
+    line-height: 1.25;
+    text-align: justify;
+  }
+
 }
+

@@ -11,7 +11,7 @@ const About = () => {
         <h1>{'<DIEGO F. VELESACA O./>'}</h1>
         <h2>DESARROLLADOR DE SOFTWARE FULLSTACK</h2>
       </section>
-      {/* <section className={styles.About} id="about">
+      <section className={styles.About} id="about">
         <div className={styles.Description}>
           <div className={styles.Description__imageContainer}>
             <Image
@@ -33,7 +33,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   )
 }
