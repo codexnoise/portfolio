@@ -22,7 +22,7 @@
 @media (max-width: 640px) {
   .technologies__container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columnas de ancho flexible */
+    grid-template-columns: repeat(4, 1fr); /* 5 columnas de ancho flexible */
     grid-auto-rows: auto; /* Altura automática según el contenido */
     gap: 10px;
   }
