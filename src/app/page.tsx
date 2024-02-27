@@ -8,8 +8,8 @@ export default function Home() {
     <main>
       <About />
       <Technologies />
-      {/* <Projects />
-      <Contact /> */}
+      {/* <Projects />*/}
+      <Contact />
     </main>
   )
 }

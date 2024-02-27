@@ -38,3 +38,20 @@
   height: var(--height-icon-contact);
 }
 
+@media (max-width: 640px) {
+  .Contact > h2 {
+    margin: 5rem 0 1rem 0;
+  }
+
+  .Contact__text {
+    margin: 1rem 0.5rem 2rem 0.5rem;
+  }
+
+  .Contact__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas de ancho flexible */
+    grid-auto-rows: auto; /* Altura automática según el contenido */
+    gap: 10px;
+  }
+}
+
