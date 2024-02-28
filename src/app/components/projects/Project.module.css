@@ -98,3 +98,27 @@
   font-size: 0.85rem;
   white-space: nowrap;
 }
+
+@media (max-width: 640px) {
+  .projects__container {
+    display: flex; /* Hace que los proyectos se muestren en línea */
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    scroll-snap-type: x mandatory; /* Hace que cada proyecto se "pegue" al desplazarse */
+  }
+
+  .projects__project {
+    flex: 0 0 auto; /* Hace que cada proyecto tenga un ancho fijo */
+    margin-right: 20px; /* Espacio entre proyectos */
+    scroll-snap-align: start; /* Alinea cada proyecto al inicio del contenedor */
+  }
+
+  /* Opcional: oculta las barras de desplazamiento */
+  .projects__container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .projects__container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
