@@ -104,6 +104,7 @@
     display: flex; /* Hace que los proyectos se muestren en línea */
     overflow-x: auto; /* Permite el desplazamiento horizontal */
     scroll-snap-type: x mandatory; /* Hace que cada proyecto se "pegue" al desplazarse */
+    width: 100% !important; /* Ancho del contenedor al 100% de la pantalla */
   }
 
   .projects__project {
@@ -120,5 +121,10 @@
   .projects__container {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+  }
+
+  .projects__project {
+    width: 90%;
+    margin: 0 auto;
   }
 }
