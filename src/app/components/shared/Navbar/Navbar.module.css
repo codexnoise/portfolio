@@ -50,7 +50,8 @@
 
 @media (max-width: 640px) {
   .Navbar {
-    display: none;
+    border-radius: 0;
+    border: none;
   }
 
   .Navbar__list{
@@ -67,11 +68,11 @@
 
 .Navbar__mobile__icon {
   position: fixed;
-
   background-color: var(--main-dark-color);
   z-index: 10;
   color: var(--letters-dark-color);
-  padding: 8px;
+  padding: 5px;
+  width: 100vh;
 }
 
 .Navbar__mobile__icon svg{
