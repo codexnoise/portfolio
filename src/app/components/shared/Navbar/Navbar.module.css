@@ -52,6 +52,7 @@
   .Navbar {
     border-radius: 0;
     border: none;
+    display: none;
   }
 
   .Navbar__list{
