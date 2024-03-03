@@ -15,8 +15,22 @@ const Navbar = () => {
     if (iconoMenu && navbar) {
       iconoMenu.style.display = 'none'
       navbar.style.display = 'flex'
-      navbar.style.width = 'auto'
+      navbar.style.width = '100%'
       navbar.style.position = 'fixed'
+    }
+  }, [])
+
+  const onHideMenu = useCallback(() => {
+    const iconoMenu = document.querySelector(
+      `.${styles.Navbar__mobile__icon}`,
+    ) as HTMLElement
+    const navbar = document.querySelector(`.${styles.Navbar}`) as HTMLElement
+
+    if (iconoMenu && navbar) {
+      navbar.style.display = 'none'
+      iconoMenu.style.display = 'flex'
+      iconoMenu.style.width = '100%'
+      iconoMenu.style.position = 'fixed'
     }
   }, [])
 
@@ -39,7 +53,7 @@ const Navbar = () => {
       <nav className={styles.Navbar}>
         <ul className={styles.Navbar__list}>
           <li>
-            <Link href="#home">
+            <Link href="#home" onClick={onHideMenu}>
               <svg
                 role="img"
                 viewBox="0 0 12 12"
@@ -54,7 +68,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#about">
+            <Link href="#about" onClick={onHideMenu}>
               <svg
                 role="img"
                 viewBox="0 0 12 12"
@@ -69,7 +83,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#technologies">
+            <Link href="#technologies" onClick={onHideMenu}>
               <svg
                 role="img"
                 viewBox="0 0 16 16"
@@ -84,7 +98,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#projects">
+            <Link href="#projects" onClick={onHideMenu}>
               <svg
                 role="img"
                 viewBox="0 0 24 24"
@@ -99,7 +113,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/#contact">
+            <Link href="/#contact" onClick={onHideMenu}>
               <svg
                 role="img"
                 viewBox="0 0 16 16"
