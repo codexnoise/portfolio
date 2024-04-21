@@ -7,7 +7,7 @@ import Navbar from './components/shared/Navbar/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Diego Velesaca | Portfolio',
+  title: 'diego velesaca | portfolio',
   description: 'Portfolio - Diego F Velesaca O Software Developer',
 }
 
