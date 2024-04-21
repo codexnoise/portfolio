@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'diego velesaca | portfolio',
-  description: 'Portfolio - Diego F Velesaca O Software Developer',
+  description:
+    '¡Hola! Soy diego, un desarrollador fullstack con experiencia en desarrollo web y aplicaciones. Visita mi portafolio para conocer mis proyectos y habilidades.',
 }
 
 export default function RootLayout({
