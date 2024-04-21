@@ -15,7 +15,7 @@ const About = () => {
         <div className={styles.Description}>
           <div className={styles.Description__imageContainer}>
             <Image
-              src="portfolio/images/home_image.png"
+              src="/portfolio/public/images/home_image.png"
               alt="profile"
               fill
               placeholder="blur"
