@@ -26,7 +26,7 @@ const Navbar = () => {
     ) as HTMLElement
     const navbar = document.querySelector(`.${styles.Navbar}`) as HTMLElement
 
-    if (iconoMenu && navbar) {
+    if (iconoMenu && navbar && window.innerWidth <= 640) {
       navbar.style.display = 'none'
       iconoMenu.style.display = 'flex'
       iconoMenu.style.width = '100%'
