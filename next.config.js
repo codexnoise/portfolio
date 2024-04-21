@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'build',
   basePath: '/portfolio',
+  output: 'export', // <=== enables static exports
+  reactStrictMode: true,
+  images: { unoptimized: true },
 }
 
 module.exports = nextConfig
