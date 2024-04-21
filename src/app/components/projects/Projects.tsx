@@ -8,7 +8,7 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
   <div className={styles.projects__project} key={project.name}>
     <figure>
       <Image
-        src={`/images/${project.image}`}
+        src={`/portfolio/images/${project.image}`}
         alt={project.image}
         width={360}
         height={626}
@@ -26,7 +26,7 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
             >
               <Image
                 key={tech.tech}
-                src={`/portfolio//brands/${tech.tech}.svg`}
+                src={`/portfolio/brands/${tech.tech}.svg`}
                 alt={`${tech}_logo`}
                 width={35}
                 height={35}
@@ -41,7 +41,7 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
             className={styles.project__links__github__link}
           >
             <Image
-              src="/portfolio//icons/github.svg"
+              src="/portfolio/icons/github.svg"
               alt="github_icono"
               width={25}
               height={25}
@@ -54,7 +54,7 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({ project }) => (
             className={styles.project__links__github__link}
           >
             <Image
-              src="/portfolio//icons/url.svg"
+              src="/portfolio/icons/url.svg"
               alt="url_icono"
               width={25}
               height={25}
